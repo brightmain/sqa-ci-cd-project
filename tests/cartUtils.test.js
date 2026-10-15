@@ -17,9 +17,6 @@ describe('CartUtils', () => {
     test('total untuk null', () => {
       expect(cart.calculateTotal(null)).toBe(0);
     });
-    test('test sengaja gagal', () => {
-  expect(2 + 2).toBe(5);
-});
   });
 
   describe('applyTax', () => {
